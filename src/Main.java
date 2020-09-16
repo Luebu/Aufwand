@@ -8,6 +8,8 @@ public class Main {
         System.out.println("Wie oft Ente?");
         double x = System.currentTimeMillis();
         a.ente(sc.nextInt());
-        System.out.println(System.currentTimeMillis()-x);
+        System.out.print("Es hat ");
+        System.out.print(System.currentTimeMillis()-x);
+        System.out.print(" Millisekunden gadauert!");
     }
 }
