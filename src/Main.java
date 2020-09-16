@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.lang.System;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,7 +10,7 @@ public class Main {
         double x = System.currentTimeMillis();
         a.ente(sc.nextInt());
         System.out.print("Es hat ");
-        System.out.print(System.currentTimeMillis()-x);
+        System.out.print(System.currentTimeMillis() - x);
         System.out.print(" Millisekunden gadauert!");
     }
 }
