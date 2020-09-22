@@ -7,7 +7,6 @@ public class Aufwand {
         int ver = 0;
         //double x = System.currentTimeMillis();
         for (int i = 0; i < pX; i++) {
-
             ver++;
             System.out.println("Ente");
             an++;
