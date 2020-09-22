@@ -5,8 +5,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Aufwand a = new Aufwand();
         while (true) {
-            System.out.println("Wie oft Ente?");
-            a.ente(sc.nextInt());
+            System.out.println("Wie oft?");
+            a.aufgabe3a(sc.nextInt());
         }
     }
 }
