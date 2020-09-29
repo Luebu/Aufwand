@@ -13,8 +13,8 @@ public class Aufwand {
             an++;
         }
         ver++;
-        System.out.println("An: "+an);
-        System.out.println("Ver: "+ver);
+        System.out.println("An: " + an);
+        System.out.println("Ver: " + ver);
         /*System.out.print("Es hat ");
         System.out.print(System.currentTimeMillis() -x);
         System.out.print(" Millisekunden gadauert!");*/
@@ -25,26 +25,28 @@ public class Aufwand {
         int ver = 0;
         System.out.println(pAnzahl);
         an++;
-        an=an+2;
+        an = an + 2;
         for (int i = 0; i <= pAnzahl; i++) {
             ver++;
             System.out.println("Das ist super toll wunderbar");
             an++;
             String k = "blavl";
-            an=an+2;
+            an = an + 2;
+            an++;
         }
         ver++;
-        an=an+2;
+        an = an + 2;
         for (int i = 0; i <= pAnzahl; i++) {
             ver++;
             System.out.println("Das ist super toll wunderbar");
             an++;
             String k = "blavl";
-            an=an+2;
+            an = an + 2;
+            an++;
         }
         ver++;
-        System.out.println("An: "+an);
-        System.out.println("Ver: "+ver);
+        System.out.println("An: " + an);
+        System.out.println("Ver: " + ver);
     }
 
 
@@ -52,36 +54,38 @@ public class Aufwand {
         int an = 1;
         int ver = 0;
         System.out.println(pAnzahl);
-        an=an+3;
+        an = an + 3;
         for (int i = 0; i <= pAnzahl; i++) {
             ver++;
             System.out.println("Das ist super toll wunderbar");
             an++;
             String k = "blavl";
-            an=an+3;
+            an = an + 4;
             for (int j = 0; j <= pAnzahl; j++) {
                 ver++;
                 System.out.println("Das ist super toll wunderbar");
                 an++;
                 String k2 = "blavl";
+                an=an+2;
                 an++;
             }
             ver++;
+            an++;
         }
         ver++;
-        System.out.println("An: "+an);
-        System.out.println("Ver: "+ver);
+        System.out.println("An: " + an);
+        System.out.println("Ver: " + ver);
     }
 
 
     public void aufgabe3c(int[] pZusortieren) {
-        int an=1;
-        int ver=0;
+        int an = 1;
+        int ver = 0;
         int temp;
-        an=an+3;
+        an = an + 3;
         for (int i = 1; i < pZusortieren.length; i++) {
             ver++;
-            an=an+3;
+            an = an + 3;
             for (int j = 0; j < pZusortieren.length - i; j++) {
                 ver++;
                 if (pZusortieren[j] > pZusortieren[j + 1]) {
@@ -93,14 +97,13 @@ public class Aufwand {
                     pZusortieren[j + 1] = temp;
                     an++;
                 }
-
+                an++;
             }
             ver++;
+            an++;
         }
         ver++;
-        System.out.println("An: "+an);
-        System.out.println("Ver: "+ver);
+        System.out.println("An: " + an);
+        System.out.println("Ver: " + ver);
     }
 }
-//Anweisung = n*2+3
-//vergeleich = n+1

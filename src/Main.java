@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int[] arr = new int[100];
         Aufwand a = new Aufwand();
-        while (true) {
-            System.out.println("Wie oft?");
-            a.aufgabe3a(sc.nextInt());
-        }
+
+       // System.out.println("Wie oft?");
+        a.aufgabe3c(arr);
     }
 }
