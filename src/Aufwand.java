@@ -49,34 +49,57 @@ public class Aufwand {
 
 
     public void aufgabe3b(int pAnzahl) {
+        int an = 1;
+        int ver = 0;
         System.out.println(pAnzahl);
-
+        an=an+3;
         for (int i = 0; i <= pAnzahl; i++) {
+            ver++;
             System.out.println("Das ist super toll wunderbar");
+            an++;
             String k = "blavl";
+            an=an+3;
             for (int j = 0; j <= pAnzahl; j++) {
+                ver++;
                 System.out.println("Das ist super toll wunderbar");
+                an++;
                 String k2 = "blavl";
+                an++;
             }
+            ver++;
         }
-
-
+        ver++;
+        System.out.println("An: "+an);
+        System.out.println("Ver: "+ver);
     }
 
 
     public void aufgabe3c(int[] pZusortieren) {
+        int an=1;
+        int ver=0;
         int temp;
+        an=an+3;
         for (int i = 1; i < pZusortieren.length; i++) {
+            ver++;
+            an=an+3;
             for (int j = 0; j < pZusortieren.length - i; j++) {
+                ver++;
                 if (pZusortieren[j] > pZusortieren[j + 1]) {
+                    ver++;
                     temp = pZusortieren[j];
+                    an++;
                     pZusortieren[j] = pZusortieren[j + 1];
+                    an++;
                     pZusortieren[j + 1] = temp;
+                    an++;
                 }
 
             }
+            ver++;
         }
-
+        ver++;
+        System.out.println("An: "+an);
+        System.out.println("Ver: "+ver);
     }
 }
 //Anweisung = n*2+3
