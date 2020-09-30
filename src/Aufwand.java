@@ -2,6 +2,7 @@ import java.lang.System;
 
 public class Aufwand {
 
+
     public void ente(int pX) {
         int an = 3;
         int ver = 0;
@@ -18,6 +19,7 @@ public class Aufwand {
         /*System.out.print("Es hat ");
         System.out.print(System.currentTimeMillis() -x);
         System.out.print(" Millisekunden gadauert!");*/
+
     }
 
     public void aufgabe3a(int pAnzahl) {
@@ -66,7 +68,7 @@ public class Aufwand {
                 System.out.println("Das ist super toll wunderbar");
                 an++;
                 String k2 = "blavl";
-                an=an+2;
+                an = an + 2;
                 an++;
             }
             ver++;
